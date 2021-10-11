@@ -25,6 +25,7 @@ h2 {
 
 p {
     text-align: center;
+    line-height: 0px;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     color: black;
