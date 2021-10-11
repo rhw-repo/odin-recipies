@@ -4,24 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>recipes</title>
-    <link rel="stylesheet" href="style.css"
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>float</title>
+    <link rel="stylesheet" href="style.css" <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .flex-container .box {
+            width: 50%;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+
+        .flex-container img {
+            width: 100%;
+        }
+    </style>
 
 
 </head>
 
 <body>
-    <div>
-        <h1>Odin Recipes</h1>
-        <div class="item">
-        <img src="images/index-food.jpeg" alt="Delicious Vegetarian Food" style="width:400px;height:500px;">
+    <h1>Best Vegetarian Recipes Ever (they are delicious)</h1>
+    <div class="item">
+        <div class="flex-container">
+            <div class="box">
+                <a href="tompasta.html" target="_blank"><img src="images/tompasta.jpeg"
+                        alt="A Dish of Roasted Tomato Cherry Pasta"><a href="tompasta.html" target="_blank"></a>
+                    <p><a href="tompasta.html" target="_blank">Roasted Tomato Cherry Pasta</a></p>
+            </div>
+            <div class="box">
+                <a href="lasagne.html" target="_blank"><img src="images/lasagne.webp"
+                        alt="A Dish of Vegetarian Lasagne"></a>
+                <p><a href="lasagne.html" target="_blank">Vegetarian Lasagne</a></p>
+            </div>
+            <div class="box">
+                <a href="anus-bhapa-doi.html" target="_blank"><img src="images/anus-bhapa-doi.webp"
+                        alt="A Dish of Cheesecake Style Dessert"></a>
+                <p><a href="anus-bhapa-doi.html" target="_blank">Anu's Bhapa Doi</a></p>
+            </div>
         </div>
-         <p><a href="tompasta.html" target="_blank">Roasted Tomato Cherry Pasta</a></p>
-        <p> <a href="lasagne.html" target="_blank">Vegetarian Lasagne</a></p>
-        <p><a href="anus-bhapa-doi.html" target="_blank">Anu's Bhapa Doi</a></p>
     </div>
 </body>
 
